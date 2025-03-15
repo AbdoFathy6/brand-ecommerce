@@ -1,0 +1,10 @@
+.Loading {
+    text-align: center !important;
+    display: flex;
+    justify-content: center !important;
+    align-items: center !important;
+    font-size: 10rem;
+    position: absolute;
+    top: 50;
+    left: 50;
+}

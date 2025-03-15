@@ -1,0 +1,269 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,900;1,100;1,200;1,300;1,400;1,500&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: var(--bs-font-sans-serif);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.4;
+  color: #565656;
+  background-color: #edf4f6 !important;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  width: 100%;
+}
+
+:root {
+  --bs-blue: #0d6efd;
+  --bs-red: #ff2748;
+  --bs-orange: #ff8100;
+  --bs-green: #00a524;
+  --bs-primary-light: #dbe9ff;
+  --bs-white: #fff;
+  --bs-border: #ccc;
+  --bs-gray: #8B96A5;
+}
+
+
+.py-3 {
+  padding-top: 1rem !important;
+  padding-bottom: 1rem !important;
+}
+
+a {
+  text-decoration: none;
+
+}
+
+ul {
+  list-style: none;
+}
+
+
+header {
+  width: 100%;
+  position: sticky;
+  z-index: 1000;
+  top: 0px;
+}
+
+aside {
+  overflow-y: hidden;
+  /* يمنع التمرير العمودي */
+}
+
+.nav-link {
+  cursor: pointer;
+}
+
+.Navlist {
+  color: #000 !important;
+}
+
+.filter-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.buttonx {
+  background-color: #ffffff;
+  border: none;
+  padding-right: 3px;
+  cursor: pointer;
+}
+
+.filter-item {
+  background-color: #ffffff;
+  border: 1px solid #2066d0;
+  padding: 5px 10px;
+  border-radius: 5px;
+  display: inline-flex;
+  align-items: center;
+}
+
+.clear-all {
+  color: #0D6EFD;
+  cursor: pointer;
+  text-decoration: none;
+  background-color: transparent;
+  border: none;
+}
+
+.accordion .accordion-item {
+  background-color: #ffffff00 !important;
+}
+
+.accordion {
+  background-color: #ffffff00 !important;
+
+}
+
+.accordion-button {
+  background-color: #ffffff00 !important;
+}
+
+/* /////////////////////////////////////////////////////////////////////// */
+.product-card {
+  border: 1px solid #dee2e6;
+  border-radius: 10px;
+  margin: 10px 0;
+  width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+  .product-card {
+    height: 151px !important;
+  }
+
+  .product-image {
+    height: 125px !important;
+    width: 120px !important;
+  }
+}
+
+.product-image {
+  width: 100%;
+  border-radius: 5px;
+  height: 100%;
+}
+
+.price {
+  color: #000;
+  font-size: 1.5rem;
+  font-weight: bold;
+  word-break: break-all;
+}
+
+.rating-section {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  flex-wrap: wrap;
+}
+
+.star {
+  color: orange;
+  margin-right: 2px;
+}
+
+.rating-score {
+  font-size: 1.2rem;
+  color: #ff9900;
+  margin-left: 10px;
+}
+
+.orders {
+  font-size: 0.9rem;
+  color: #999;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.free-shipping {
+  color: green;
+  font-weight: 500;
+}
+
+.Heart {
+  align-items: center;
+  font-size: 22px;
+  color: #0D6EFD;
+}
+
+.divHeart {
+  width: 40px !important;
+  height: 40px;
+  border: 1px solid rgb(222, 226, 231);
+  border-radius: 6px;
+  align-content: center;
+  float: inline-end;
+  ;
+}
+
+.swiper-card {
+  width: 130px !important;
+  height: 130px !important;
+}
+
+.Similar {
+  width: 150px !important;
+  height: 220px !important;
+}
+
+
+
+.subscrib-1 {
+  background-color: #dbe3eb;
+  height: 200px;
+}
+
+.subscrib-1 .title-sub {
+  text-align: center;
+}
+
+.list-menu {
+  line-height: 30px;
+}
+
+.bord {
+  border-bottom: 1px solid #ccc;
+  padding-top: 12px;
+  width: 266px;
+}
+
+.fa-angle-up {
+  padding-left: 160px;
+}
+
+.grid-fill {
+  font-size: 24px;
+  width: 80px;
+  height: 40px;
+  padding-left: 7px;
+  border: 1px solid #dee2e7;
+  border-radius: 6px;
+  margin: 0 9px 0;
+}
+
+.fa-navicon {
+  width: 38px;
+  background-color: #eff2f4;
+  height: 40px;
+  padding: 6px;
+  border-radius: 0 6px 6px 0;
+}
+
+.fa-th-large {
+  padding-left: 3px;
+}
+
+form .dropdown-toggle {
+  border-radius: 0 !important;
+  border: 0;
+}
+
+.list-menu li {
+  line-height: 30px;
+  color: gray !important;
+}
+
+
+
+
+
+.logo-footer:hover {
+  transform: scale(1.5);
+}
+
+@media (max-width: 768px) {
+  .Card-Multy {
+    width: 195px !important;
+    transform: scale(0.9);
+  }
+}
